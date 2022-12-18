@@ -3,7 +3,7 @@ import useFetch from "../useFetch";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const { data: movie, error, isPending } = useFetch(`http://www.omdbapi.com/?i=${id}&apikey=eab8d491`);
+  const { data: movie, error, isPending } = useFetch(`https://www.omdbapi.com/?i=${id}&apikey=eab8d491`);
 
 
 
