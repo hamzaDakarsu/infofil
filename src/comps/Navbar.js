@@ -6,7 +6,7 @@ const Navbar = (props) => {
         <nav className="navbar">
             <h1>Filim-Tarayıcı2000</h1>
             <div className='col'>
-                <Link to="/" className='align-item-end'>Ana Sayfa</Link>
+                <Link to="/">Ana Sayfa</Link>
             </div>
         </nav>
 	);
