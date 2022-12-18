@@ -32,7 +32,7 @@ const BlogDetails = () => {
         </div>
         <div className="row">
             <div className="well">
-                <h3>Tema</h3>
+                <h3>Temalar</h3>
                 { movie.Plot }
                 <hr />
                 <a href={`https://www.imdb.com/title/${movie.imdbID}`} target="_blank" className="btn btn-primary" >IMDB'ye bakmak için</a>
